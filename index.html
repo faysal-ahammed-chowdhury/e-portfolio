@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faysal Ahammed Chowdhury - Portfolio</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.8;
+      font-size: 105%;
+    }
+
+    * {
+        margin: 0;
+    }
+
+    p {
+        margin-bottom: 5px;
+    }
+
+    /* Header Section */
+    header {
+      background-color: #00796b; /* Teal color */
+      color: white;
+      padding: 50px 10%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0 0;
+    }
+
+    /* Profile Picture */
+    .profile-picture {
+      display: flex;
+      justify-content: center;
+    }
+
+    .profile-picture img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image fits without distortion */
+        object-position: top; 
+        border: 5px solid white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #e0f2f1; /* Light teal */
+      padding: 15px 10%;
+      text-align: center;
+    }
+
+    nav a {
+      color: #00796b; /* Teal color */
+      text-decoration: none;
+      margin: 0 25px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Styling */
+    section {
+      width: 1100px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .section-title {
+      font-size: 2em;
+      color: #00796b; /* Teal color */
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      margin-top: 20px;
+    }
+
+    .project {
+        margin: 20px 0 30px 0;
+    }
+
+    /* Contact Section Styling */
+    .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    .contact-list li {
+    margin: 10px 0;
+    }
+
+    .contact-list a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .contact-list a:hover {
+        text-decoration: underline;
+    }
+
+
+    ul {
+      list-style: inside;
+      margin: 10px 0 0;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #333; /* Dark grey */
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #80cbc4; /* Light teal */
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Button Styles */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      font-size: 1em;
+      color: white;
+      background-color: #00796b;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #005f56;
+    }
+
+    .achievement-link {
+    color: #00796b; /* Teal color */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 8px;
+  }
+
+  .achievement-link:hover {
+    text-decoration: underline;
+    color: #004d40; /* Darker teal */
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-bottom: 5px;
+  }
+  </style>
+</head>
+<body>
+
+<header>
+    <div class="profile-picture">
+        <img src="faysal.jpg" alt="Faysal Ahammed Chowdhury">
+    </div>
+    <h1>Faysal Ahammed Chowdhury</h1>
+    <p>Competitive Programmer | Aspiring Software Engineer | Problem Solver</p>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#education">Education</a>
+  <a href="#work-experience">Work Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" style="display: flex; justify-content: space-between; align-items: center; gap: 50px;">
+  <!-- About Me Text -->
+  <div style="flex: 1;">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am Faysal Ahammed Chowdhury, a Computer Science undergraduate at American International University-Bangladesh (AIUB). I have a strong foundation in programming, problem-solving, and software development. My journey includes notable achievements in programming contests like ICPC and NCPC, and I’ve also completed projects such as the AIUB Blood Donation Club app, showcasing my practical application of OOP principles.
+    </p>
+    <a href="Faysal_CV.pdf" class="button" download>Download My CV</a>
+  </div>
+
+  <!-- YouTube Video -->
+  <div style="flex: 1;">
+    <iframe 
+      width="100%" 
+      height="315" 
+      src="https://www.youtube.com/embed/RrX-EwlFB9k?si=DY0Qpo0FsPQxz51K" 
+      title="About Me" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+
+  <div style="display: flex; justify-content: space-between; gap: 20px; width: 1100px; margin: auto;  margin-top: 20px; ">
+    <!-- Education Section -->
+    <section id="education" style="flex: 1; margin-right: 20px;">
+      <h2 class="section-title">Education</h2>
+      <div class="content">
+        <h3>American International University-Bangladesh (AIUB)</h3>
+        <p>Bachelor of Science in Computer Science</p>
+        <p><i>September 2022 - Current</i></p>
+        <p><strong>CGPA:</strong> 3.53</p>
+        <p><strong>Activities:</strong> Programming Contest</p>
+      </div>
+    </section>
+  
+    <!-- Skills Section -->
+    <section id="skills" style="flex: 1;  margin-left: 20px; margin-top: 0;">
+      <h2 class="section-title">Skills</h2>
+      <div class="content">
+        <ul>
+          <li>C, C++, Java, C#</li>
+          <li>Object Oriented Programming, Oracle SQL Database</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="content">
+    <div class="project">
+        <h3>AIUB Blood Donation Club</h3>
+        <p><i>March 2023 – May 2023</i></p>
+        <p><strong>Technologies:</strong> Java, Java Swing</p>
+        <p><strong>Description:</strong> This is a Java-based application developed as a project for the Object-Oriented Programming-1 course at the university. It provides a user-friendly interface for users to register as donors or seekers, find blood donors, and request or donate blood when needed. The project focuses on applying object-oriented principles.
+        </p>
+        <p><strong>Project Link:</strong> <a style="margin-left: 0;" class="achievement-link" href="https://github.com/faysal-ahammed-chowdhury/aiub-blood-donation-club-app" target="_blank">View Project</a></p>
+    </div>
+    
+    <div class="project">
+        <h3>Criminal Face Detection System</h3>
+        <p><i>April 2024 – June 2024</i></p>
+        <p><strong>Technologies:</strong> Oracle SQL</p>
+        <p><strong>Description:</strong> This project focused on designing and developing the database system for a criminal face detection system. The primary goal was to create an efficient database structure for storing facial data and criminal records, ensuring fast retrieval and easy management of facial images and associated criminal information for law enforcement use.
+        </p>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+    <h2 class="section-title">Achievements</h2>
+    <div class="content">
+      <ul>
+        <li><b>1st Runner-Up</b>, AIUB CS Fest 2024 (Junior Division)
+          <a href="https://toph.co/c/cs-fest-aiub-junior-division/standings" class="achievement-link" target="_blank">View Standings</a> |
+          <a href="https://example.com/certificate1" class="achievement-link" target="_blank">View Certificate</a>
+        </li>
+        <li><b>2nd Runner-Up</b>, Intra-AIUB Programming Contest 2024 (Senior Division)
+          <a href="https://toph.co/c/intra-aiub-2024-senior/standings" class="achievement-link" target="_blank">View Standings</a> |
+          <a href="https://example.com/certificate2" class="achievement-link" target="_blank">View Certificate</a>
+        </li>
+        <li><b>Specialist</b> coder on Codeforces with a maximum rating of <b>1575</b>
+          <a href="https://codeforces.com/profile/reinforcer" class="achievement-link" target="_blank">View Codeforces Profile</a>
+        </li>
+        <li>Solved <b>1500+</b> problems on various online judges (Codeforces, LightOJ, LeetCode)
+          <a href="https://lightoj.com/user/faysal_chowdhury" class="achievement-link" target="_blank">View LightOJ Profile</a> |
+          <a href="https://leetcode.com/faysalchowdhury" class="achievement-link" target="_blank">View LeetCode Profile</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+
+<!-- <section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="content">
+    <h3>American International University-Bangladesh (AIUB)</h3>
+    <p>Bachelor of Science in Computer Science</p>
+    <p>Sep 2022 - Current</p>
+    <p><strong>CGPA:</strong> 3.53</p>
+  </div>
+</section> -->
+
+<section id="work-experience">
+  <h2 class="section-title">Work Experience</h2>
+  <div class="content">
+    <h3>CS Instructor Intern, Programming Hero</h3>
+    <p><i>January 2023 – February 2023</i></p>
+    <ul>
+      <li>Conducted data structure and algorithm classes for undergraduate students.</li>
+      <li>Helped solve complex problems during live coding exercises.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="content">
+      <ul class="contact-list">
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:faysal@example.com">faysalahammedchowdhury01@gmail.com</a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/faysalchowdhury/" target="_blank">linkedin.com/in/faysalchowdhury</a>
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/faysal-ahammed-chowdhury" target="_blank">github.com/faysal-ahammed-chowdhury</a>
+        </li>
+        <li>
+          <strong>Phone:</strong>
+          <a href="tel:+1234567890">+8801610137675</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+
+<footer>
+  <p>&copy; 2024 Faysal Ahammed Chowdhury</p>
+</footer>
+
+</body>
+</html>
